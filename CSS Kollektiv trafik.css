@@ -8,7 +8,6 @@
 	left: 580px;
 }
 
-
 /* Udrejse bagrunds bilet */
 .Soegebar-udrejse{
 	position: absolute;
@@ -31,6 +30,35 @@
 
 /* --------------------------------------------------------------------- Rejse fra og til  ----------------------------------------------------------*/
 
+/* Udrejse punkt - Link til at udvide siden, ved at skifte side */
+.udvidMuligheder-venstre{
+	position: absolute;
+	top: 70px;
+	left: 600px;			
+			padding-top: 0px;
+			padding-bottom: 0px;
+			padding-right: 26px;
+			padding-left: 10px;
+}
+
+/* Ankomst punkt - Link til at udvide siden, ved at skifte side */
+.udvidMuligheder-hoejre{
+	position: absolute;
+	top: 70px;
+	left: 995px;
+			padding-top: 0px;
+			padding-bottom: 0px;
+			padding-right: 32px;
+			padding-left: 10px;
+}
+
+/* Hjælpetekst til at forkalre fra og til i søgebaren */
+.hjaelpeTekst{
+	color: rgb(164, 164, 164); 
+}
+
+
+
 /* Udrejse punk */
 .udrejsePunkt-udrejse{
 	position: absolute;
@@ -38,8 +66,8 @@
 	left: 600px;			
 			padding-top: 13px;
 			padding-bottom: 13px;
-			padding-right: 0px;
-			padding-left: 20px;
+			padding-right: 10px;
+			padding-left: 10px;
 }
 
 /*  Fra - tekst  */
@@ -70,8 +98,8 @@
 	left: 995px;
 			padding-top: 13px;
 			padding-bottom: 13px;
-			padding-right: 0px;
-			padding-left: 20px;
+			padding-right: 10px;
+			padding-left: 10px;
 }
 
 /* Til - tekst  */
