@@ -114,7 +114,8 @@
 			opacity: 1;	
 }
 
-/* --------------------------------------------------------------------- Rejse fra og til  ----------------------------------------------------------*/
+
+/* --------------------------------------------------------------------- Tjek cirkler  ----------------------------------------------------------*/
 
 /* Blå/markeret tjekcirkel */
 .blaaTjekcirkel{
@@ -154,14 +155,96 @@
 }
 
 
-/* Ankomsttid - Søgebar */
-.afgangstid{
-position: absolute;
-	top: 165px;
-	left: 610px;			
-			padding-top: 10px;
-			padding-bottom: 10px;
-			padding-right: 0px;
-			padding-left: 0px;
+
+/* --------------------------------------------------------------------- Dag vælger - afgang  ----------------------------------------------------------*/
+
+/* Dropdown knapen */
+.dropdownKnap-dag-afgang {
+	background-color: white;
+	color: black;
+	font: normal normal normal 15px/38px Segoe UI;
+			padding-right: 10px;
+			padding-left: 10px;
+			border: none;
 }
 
+/* Gør dropdown muligt, og giver det en placering */
+.dropdownPostion-dag-afgang {
+	/* Gør selve dropdown dellen mulig*/
+  	position: relative;
+	
+	/* Postionen af knapen og dermed indholdet*/
+	position: absolute;
+	top: 165px;
+	left: 610px;
+}
+
+/* Dropdown indholdet (Hidden by Default) */
+.dropdownIndhold-dag-afgang {
+	display: none;
+	background-color: white;
+	min-width: 200px;
+	min-height: 200px;
+	z-index: 1;
+}
+
+/* Links i dropdownmenuen */
+.dropdownIndhold-dag-afgang a {
+	padding: 0px;
+	display: block;
+}
+
+/* Hviser dropdownmenuen menu når man hover over den */
+.dropdownPostion-dag-afgang:hover .dropdownIndhold-dag-afgang {display: block;}   
+
+/* --------------------------------------------------------------------- Tid vælger - afgang  ----------------------------------------------------------*/
+
+/* Dropdown knapen */
+.dropdownKnap-tid-afgang {
+	background-color: white;
+	color: black;
+	font: normal normal normal 15px/38px Segoe UI;
+			padding-right: 18px;
+			padding-left: 18px;
+			border: none;
+}
+
+/* Gør dropdown muligt, og giver det en placering */
+.dropdownPostion-tid-afgang {
+	/* Gør selve dropdown dellen mulig*/
+  	position: relative;
+	
+	/* Postionen af knapen og dermed indholdet*/
+	position: absolute;
+	top: 165px;
+	left: 711px;
+}
+
+/* Dropdown indholdet (Hidden by Default) */
+.dropdownIndhold-tid-afgang {
+	display: none;
+	background-color: white;
+	max-width: 70px;
+	max-height: 200px;
+	padding-left: 10px;
+	padding-top: 1px;
+	z-index: 1;
+	overflow-y: scroll;
+	
+}
+
+
+/* Links i dropdownmenuen */
+.dropdownIndhold-tid-afgang a {
+	color: black;
+	text-decoration: none;
+	font: normal normal normal 15px/20px Segoe UI;
+	padding: 0px;
+	display: block;
+}
+
+/* Hviser dropdownmenuen menu når man hover over den */
+.dropdownPostion-tid-afgang:hover .dropdownIndhold-tid-afgang {display: block;}       
+
+
+/* --------------------------------------------------------------------- BilettypeBilettype  ----------------------------------------------------------*/
