@@ -224,13 +224,12 @@
 .dropdownIndhold-tid-afgang {
 	display: none;
 	background-color: white;
-	max-width: 70px;
+	max-width: 100%;
 	max-height: 200px;
 	padding-left: 10px;
 	padding-top: 1px;
 	z-index: 1;
 	overflow-y: scroll;
-	
 }
 
 
@@ -247,4 +246,109 @@
 .dropdownPostion-tid-afgang:hover .dropdownIndhold-tid-afgang {display: block;}       
 
 
-/* --------------------------------------------------------------------- BilettypeBilettype  ----------------------------------------------------------*/
+
+/* --------------------------------------------------------------------- Pladsbilet vælger  ----------------------------------------------------------*/
+
+/* Dropdown knapen */
+.dropdownKnap-pladser {
+	background-color: white;
+	color: black;
+	font: normal normal normal 15px/38px Segoe UI;
+			padding-right: 18px;
+			padding-left: 18px;
+			border: none;
+}
+
+/* Gør dropdown muligt, og giver det en placering */
+.dropdownPostion-pladser {
+	/* Gør selve dropdown dellen mulig*/
+  	position: relative;
+	
+	/* Postionen af knapen og dermed indholdet*/
+	position: absolute;
+	top: 310px;
+	left: 800px;
+}
+
+/* Dropdown indholdet (Hidden by Default) */
+.dropdownIndhold-pladser {
+	display: none;
+	background-color: white;
+	max-width: 100%;
+	min-height: 208px;
+	padding-left: 10px;
+	padding-top: 1px;
+	z-index: 1;
+}
+
+
+/* Links i dropdownmenuen */
+.dropdownIndhold-pladser a {
+	color: black;
+	text-decoration: none;
+	font: normal normal normal 15px/10px Segoe UI;
+	padding: 0px;
+	display: block;
+}
+
+/* Hviser dropdownmenuen menu når man hover over den */
+.dropdownPostion-pladser:hover .dropdownIndhold-pladser {display: block;}
+
+/* --------------------------------------------------------------------- Antal rejsene vælger  ----------------------------------------------------------*/
+
+/* Dropdown knapen */
+.dropdownKnap-rejsene {
+	background-color: white;
+	color: black;
+	font: normal normal normal 15px/38px Segoe UI;
+			padding-right: 60px;
+			padding-left: 60px;
+			border: none;
+}
+
+/* Gør dropdown muligt, og giver det en placering */
+.dropdownPostion-rejsene {
+	/* Gør selve dropdown dellen mulig*/
+  	position: relative;
+	
+	/* Postionen af knapen og dermed indholdet*/
+	position: absolute;
+	top: 240px;
+	left: 800px;
+}
+
+/* Dropdown indholdet (Hidden by Default) */
+.dropdownIndhold-rejsene {
+	display: none;
+	background-color: white;
+	max-width: 100%;
+	min-height: 140px;
+	padding-left: 7px;
+	padding-top: 1px;
+	z-index: 1;
+	
+}
+
+/* Links i dropdownmenuen */
+.dropdownIndhold-rejsene a {
+	color: black;
+	text-decoration: none;
+	font: normal normal normal 15px/10px Segoe UI;
+	padding: 0px;
+	display: block;
+}
+
+/* Hviser dropdownmenuen menu når man hover over den */
+.dropdownPostion-rejsene:hover .dropdownIndhold-rejsene {display: block;}
+
+
+.boernebilet{
+	position: absolute;
+	margin-top: 0px;
+	top: 120px;
+	left: 106px;
+}
+
+
+
+
