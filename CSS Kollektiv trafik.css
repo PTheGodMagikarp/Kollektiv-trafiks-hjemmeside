@@ -9,16 +9,6 @@
 	left: 580px;
 }
 
-/* Udrejse - tekst */
-.hjemrejse-tekst{
-	position: absolute;
-	top: 370px;
-	left: 590px;
-	
-	font: normal normal normal 20px/0px Segoe UI;
-			color: #f0b518;		
-}
-
 /* Udrejse bagrunds bilet */
 .Soegebar-udrejse{
 	position: absolute;
@@ -29,14 +19,22 @@
 /* Udrejse - tekst */
 .udrejse-tekst{
 	position: absolute;
-	top: 15px;
+	top: 18px;
 	left: 590px;
 	
 	font: normal normal normal 20px/0px Segoe UI;
 			color: #f0b518;	
 }
 
-
+/* Udrejse - tekst */
+.hjemrejse-tekst{
+	position: absolute;
+	top: 370px;
+	left: 590px;
+	
+	font: normal normal normal 20px/0px Segoe UI;
+			color: #f0b518;		
+}
 
 /* --------------------------------------------------------------------- Rejse fra og til  ----------------------------------------------------------*/
 
