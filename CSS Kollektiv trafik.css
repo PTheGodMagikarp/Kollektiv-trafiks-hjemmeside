@@ -115,85 +115,7 @@
 }
 
 
-/* --------------------------------------------------------------------- Tjek cirkler til Afgagstid og ankomsttid  ----------------------------------------------------------*/
 
-/* Blå/markeret tjekcirkel */
-.blaaTjekcirkel-udrejse{
-	position: absolute;
-	top: 130px;
-	left: 585px;
-}
-
-/* Afgangstid - tekst */
-.afgangstid-tekst-udrejse{
-	position: absolute;
-	top: 130px;
-	left: 618px;
-	font: normal normal normal 15px/0px Segoe UI;
-			color: white;
-			letter-spacing: 0px;
-			opacity: 1;	
-}
-
-
-/* Hvid/umarkeret tjekcirkel */
-.hvidTjekcirkel-udrejse{
-	position: absolute;
-	top: 130px;
-	left: 695px;
-}
-
-/* Ankomsttid - tekst */
-.ankomsttid-tekst-udrejse{
-	position: absolute;
-	top: 130px;
-	left: 729px;
-	font: normal normal normal 15px/0px Segoe UI;
-			color: white;	
-}
-
-
-
-/* --------------------------------------------------------------------- Dag vælger - afgang  ----------------------------------------------------------*/
-
-/* Dropdown knapen */
-.dropdownKnap-dag-afgang-udrejse {
-	background-color: white;
-	color: black;
-	font: normal normal normal 15px/38px Segoe UI;
-			padding-right: 10px;
-			padding-left: 10px;
-			border: none;
-}
-
-/* Gør dropdown muligt, og giver det en placering */
-.dropdownPostion-dag-afgang-udrejse {
-	/* Gør selve dropdown dellen mulig*/
-  	position: relative;
-	
-	/* Postionen af knapen og dermed indholdet*/
-	position: absolute;
-	top: 165px;
-	left: 610px;
-}
-
-/* Dropdown indholdet (Hidden by Default) */
-.dropdownIndhold-dag-afgang-udrejse {
-	display: none;
-	background-color: white;
-	min-width: 200px;
-	min-height: 200px;
-	z-index: 1;
-}
-
-/* Links i dropdownmenuen */
-.dropdownIndhold-dag-afgang-udrejse a {
-	padding: 0px;
-	display: block;
-}
-
-/* Hviser dropdownmenuen menu når man hover over den */
-.dropdownPostion-dag-afgang-udrejse:hover .dropdownIndhold-dag-afgang-udrejse {display: block;}   
 
 /* --------------------------------------------------------------------- Tid vælger - afgang  ----------------------------------------------------------*/
 
@@ -453,4 +375,90 @@
 
 /* --------------------------------------------------------------------- Søg knap   ----------------------------------------------------------*/
 
+
+.soeg-udrejse{
+	position: absolute;
+	top: 320px;
+	left: 1055px;
+}
+
+/* --------------------------------------------------------------------- Tjek cirkler til Afgagstid og ankomsttid  ----------------------------------------------------------*/
+
+/* Blå/markeret tjekcirkel */
+.blaaTjekcirkel-udrejse{
+	position: absolute;
+	top: 130px;
+	left: 585px;
+}
+
+/* Afgangstid - tekst */
+.afgangstid-tekst-udrejse{
+	position: absolute;
+	top: 130px;
+	left: 618px;
+	font: normal normal normal 15px/0px Segoe UI;
+			color: white;
+			letter-spacing: 0px;
+			opacity: 1;	
+}
+
+
+/* Hvid/umarkeret tjekcirkel */
+.hvidTjekcirkel-udrejse{
+	position: absolute;
+	top: 130px;
+	left: 695px;
+}
+
+/* Ankomsttid - tekst */
+.ankomsttid-tekst-udrejse{
+	position: absolute;
+	top: 130px;
+	left: 729px;
+	font: normal normal normal 15px/0px Segoe UI;
+			color: white;	
+}
+
+
+
+/* --------------------------------------------------------------------- Dag vælger - afgang  ----------------------------------------------------------*/
+
+/* Dropdown knapen */
+.dropdownKnap-dag-afgang-udrejse {
+	background-color: white;
+	color: black;
+	font: normal normal normal 15px/38px Segoe UI;
+			padding-right: 10px;
+			padding-left: 10px;
+			border: none;
+}
+
+/* Gør dropdown muligt, og giver det en placering */
+.dropdownPostion-dag-afgang-udrejse {
+	/* Gør selve dropdown dellen mulig*/
+  	position: relative;
+	
+	/* Postionen af knapen og dermed indholdet*/
+	position: absolute;
+	top: 165px;
+	left: 610px;
+}
+
+/* Dropdown indholdet (Hidden by Default) */
+.dropdownIndhold-dag-afgang-udrejse {
+	display: none;
+	background-color: white;
+	min-width: 200px;
+	min-height: 200px;
+	z-index: 1;
+}
+
+/* Links i dropdownmenuen */
+.dropdownIndhold-dag-afgang-udrejse a {
+	padding: 0px;
+	display: block;
+}
+
+/* Hviser dropdownmenuen menu når man hover over den */
+.dropdownPostion-dag-afgang-udrejse:hover .dropdownIndhold-dag-afgang-udrejse {display: block;}   
 
