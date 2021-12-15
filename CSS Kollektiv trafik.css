@@ -457,7 +457,7 @@
 	display: none;
 	background-color: white;
 	min-width: 200px;
-	min-height: 200px;
+	max-height: 18px;
 	z-index: 1;
 }
 
