@@ -1,11 +1,22 @@
 @charset "utf-8";
 /* CSS Document */
 /* --------------------------------------------------------------------- Bagrunden - bilet ----------------------------------------------------------*/
+
 /* Hjemrejse bagrunds bilet */
 .Soegebar-hjemrejse{
 	position: absolute;
-	top: 80px;
+	top: 346px;
 	left: 580px;
+}
+
+/* Udrejse - tekst */
+.hjemrejse-tekst{
+	position: absolute;
+	top: 370px;
+	left: 590px;
+	
+	font: normal normal normal 20px/0px Segoe UI;
+			color: #f0b518;		
 }
 
 /* Udrejse bagrunds bilet */
@@ -22,10 +33,9 @@
 	left: 590px;
 	
 	font: normal normal normal 20px/0px Segoe UI;
-			color: white;
-			letter-spacing: 0px;
-			opacity: 1;	
+			color: #f0b518;	
 }
+
 
 
 /* --------------------------------------------------------------------- Rejse fra og til  ----------------------------------------------------------*/
