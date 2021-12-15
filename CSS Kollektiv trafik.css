@@ -115,17 +115,17 @@
 }
 
 
-/* --------------------------------------------------------------------- Tjek cirkler  ----------------------------------------------------------*/
+/* --------------------------------------------------------------------- Tjek cirkler til Afgagstid og ankomsttid  ----------------------------------------------------------*/
 
 /* Blå/markeret tjekcirkel */
-.blaaTjekcirkel{
+.blaaTjekcirkel-udrejse{
 	position: absolute;
 	top: 130px;
 	left: 585px;
 }
 
 /* Afgangstid - tekst */
-.afgangstid-tekst{
+.afgangstid-tekst-udrejse{
 	position: absolute;
 	top: 130px;
 	left: 618px;
@@ -144,7 +144,7 @@
 }
 
 /* Ankomsttid - tekst */
-.ankomsttid-tekst{
+.ankomsttid-tekst-udrejse{
 	position: absolute;
 	top: 130px;
 	left: 729px;
@@ -265,7 +265,7 @@
 	/* Postionen af knapen og dermed indholdet*/
 	position: absolute;
 	top: 310px;
-	left: 800px;
+	left: 805px;
 }
 
 /* Dropdown indholdet (Hidden by Default) */
@@ -299,7 +299,7 @@
 .pladsbillet-tekst--udrejse{
 	position: absolute;
 	top: 282px;
-	left: 800px;
+	left: 805px;
 	font: normal normal normal 15px/0px Segoe UI;
 			color: white;
 }
@@ -311,14 +311,14 @@
 .utjekketBox{
 	position: absolute;
 	top: 317px;
-	left: 930px;
+	left: 935px;
 }
 
 /* Barnevognspladsbillet - tekst */
 .barnevognspladsbillet-tekst--udrejse{
 	position: absolute;
 	top: 282px;
-	left: 880px;
+	left: 885px;
 	font: normal normal normal 15px/0px Segoe UI;
 			color: white;	
 }
@@ -342,7 +342,7 @@
 	/* Postionen af knapen og dermed indholdet*/
 	position: absolute;
 	top: 240px;
-	left: 800px;
+	left: 805px;
 }
 
 /* Dropdown indholdet (Hidden by Default) */
@@ -372,7 +372,7 @@
 
 
 
-/* Pladsbilet - tekst */
+/* Manuel radigereing for børn 12-15 år's minus ikon */
 .boernebilet{
 	position: absolute;
 	margin-top: 0px;
@@ -387,7 +387,70 @@
 .antalRejsene-tekst--udrejse{
 	position: absolute;
 	top: 210px;
-	left: 800px;
+	left: 805px;
 	font: normal normal normal 15px/0px Segoe UI;
 			color: white;
 }
+
+/* --------------------------------------------------------------------- Instilinger   ----------------------------------------------------------*/
+
+/* Standardindstillinger  - ikon */
+.standard{
+	position: absolute;
+	top: 130px;
+	left: 1250px;
+}
+
+
+/* Sort/markeret tjekcirkel for standardindstilinger */
+.sortTjekcirkel-standard-udrejse{
+	position: absolute;
+	top: 145px;
+	left: 1210px;
+}
+
+/* Sort/markeret tjekcirkel for justeret indstilinger */
+.sortTjekcirkel-justeret-udrejse{
+
+}
+
+/* Standard indstilinger - tekst */
+.Standard-tekst-udrejse{
+	position: absolute;
+	top: 109px;
+	left: 1214px;
+	font: normal normal normal 11px/0px Segoe UI;
+			color: white;
+}
+
+/* Justeret indstillinger  - ikon */
+.justeret{
+	position: absolute;
+	top: 220px;
+	left: 1250px;
+}
+
+/* Hvid/umarkeret tjekcirkel for standardindstilinger */
+.hvidTjekcirkel-standard-udrejse{
+	
+}
+
+/* Hvid/umarkeret tjekcirkel for justeret indstilinger */
+.hvidTjekcirkel-justeret-udrejse{
+	position: absolute;
+	top: 235px;
+	left: 1210px;
+}
+
+/* Justeret indstilinger - tekst */
+.justeret-tekst-udrejse{
+	position: absolute;
+	top: 200px;
+	left: 1220px;
+	font: normal normal normal 11px/0px Segoe UI;
+			color: white;	
+}
+
+/* --------------------------------------------------------------------- Søg knap   ----------------------------------------------------------*/
+
+
