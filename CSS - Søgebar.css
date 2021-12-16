@@ -398,7 +398,7 @@
 
 
 
-/* Manuel radigereing for børn 12-15 år's minus ikon ****/
+/* Manuel radigereing for børn 12-15 år's minus ikon ----****/
 .boernebilet{
 	position: absolute;
 	margin-top: 0px;
@@ -417,6 +417,57 @@
 	font: normal normal normal 15px/0px Segoe UI;
 			color: white;
 }
+
+
+/*------------Integreret med ---------------*/
+
+/*---- Dropdown knapen ----*/
+.dropdownKnap-rejsene-ung-udrejse {
+	background-color: white;
+	color: black;
+	font: normal normal normal 15px/38px Segoe UI;
+			padding-right: 70px;
+			padding-left: 70px;
+			border: none;
+}
+
+/*---- Gør dropdown muligt, og giver det en placering ----*/
+.dropdownPostion-rejsene-ung-udrejse {
+	/* Gør selve dropdown dellen mulig*/
+  	position: relative;
+	
+	/* Postionen af knapen og dermed indholdet*/
+	position: absolute;
+	top: 240px;
+	left: 805px;
+}
+
+/*---- Dropdown indholdet (Hidden by Default) ----*/
+.dropdownIndhold-rejsene-ung-udrejse {
+	display: none;
+	background-color: white;
+	max-width: 100%;
+	min-height: 170px;
+	padding-left: 7px;
+	padding-top: 1px;
+	z-index: 1;
+	
+}
+
+/*---- Links i dropdownmenuen ----*/
+.dropdownIndhold-rejsene-ung-udrejse a {
+	color: black;
+	text-decoration: none;
+	font: normal normal normal 15px/10px Segoe UI;
+	padding: 0px;
+	display: block;
+}
+
+/*---- Hviser dropdownmenuen menu når man hover over den ----*/
+.dropdownPostion-rejsene-ung-udrejse:hover .dropdownIndhold-rejsene-ung-udrejse {display: block;}
+
+
+
 
 
 /***************Hjemrejse*****************/
