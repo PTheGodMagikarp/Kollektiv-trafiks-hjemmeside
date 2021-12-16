@@ -764,7 +764,50 @@
 /* Hviser dropdownmenuen menu når man hover over den */
 .dropdownPostion-dag-afgang-udrejse:hover .dropdownIndhold-dag-afgang-udrejse {display: block;}  
 
-/*------------integreret med---------------*/
+
+/*------------Integreret med - 22. dec. ---------------*/
+
+/*---- Dropdown knapen ----*/
+.dropdownKnap-dag-afgang-22-udrejse {
+	background-color: white;
+	color: black;
+	font: normal normal normal 15px/38px Segoe UI;
+			padding-right: 2px;
+			padding-left: 10px;
+			border: none;
+}
+
+/*---- Gør dropdown muligt, og giver det en placering ----*/
+.dropdownPostion-dag-afgang-22-udrejse {
+	/* Gør selve dropdown dellen mulig*/
+  	position: relative;
+	
+	/* Postionen af knapen og dermed indholdet*/
+	position: absolute;
+	top: 165px;
+	left: 610px;
+}
+
+/*---- Dropdown indholdet (Hidden by Default) ----*/
+.dropdownIndhold-dag-afgang-22-udrejse {
+	display: none;
+	background-color: white;
+	min-width: 200px;
+	max-height: 18px;
+	z-index: 1;
+}
+
+/*---- Links i dropdownmenuen ----*/
+.dropdownIndhold-dag-afgang-22-udrejse a {
+	padding: 0px;
+	display: block;
+}
+
+/*---- Hviser dropdownmenuen menu når man hover over den ----*/
+.dropdownPostion-dag-afgang-22-udrejse:hover .dropdownIndhold-dag-afgang-22-udrejse {display: block;}  
+
+
+/*------------Integreret med - Ankomsttid ---------------*/
 /*---- Dropdown knapen ----*/
 .dropdownKnap-dag-ankomst-udrejse {
 	background-color: white;
