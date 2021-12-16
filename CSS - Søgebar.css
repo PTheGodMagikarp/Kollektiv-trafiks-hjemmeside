@@ -495,11 +495,6 @@
 	left: 1210px;
 }
 
-/* Sort/markeret tjekcirkel for justeret indstilinger */
-.sortTjekcirkel-justeret-udrejse{
-
-}
-
 /* Standard indstilinger - tekst */
 .Standard-tekst-udrejse{
 	position: absolute;
@@ -516,10 +511,7 @@
 	left: 1250px;
 }
 
-/* Hvid/umarkeret tjekcirkel for standardindstilinger */
-.hvidTjekcirkel-standard-udrejse{
-	
-}
+
 
 /* Hvid/umarkeret tjekcirkel for justeret indstilinger */
 .hvidTjekcirkel-justeret-udrejse{
@@ -536,6 +528,37 @@
 	font: normal normal normal 11px/0px Segoe UI;
 			color: white;	
 }
+
+
+/*------------Integreret med - Søgbaren---------------*/
+
+/* Hvid/umarkeret tjekcirkel for standardindstilinger */
+.hvidTjekcirkel-standard-udrejse{
+	position: absolute;
+	top: 145px;
+	left: 1212px;
+}
+
+/* Sort/markeret tjekcirkel for justeret indstilinger */
+.sortTjekcirkel-justeret-udrejse{
+position: absolute;
+	top: 235px;
+	left: 1210px;
+}
+
+
+/*------------Integreret med - Indstiligerne---------------*/
+
+.justerIndstilinger-indstilingerne-soegebaren-udrejse{
+	position: absolute;
+	top: 180px;
+}
+
+.justerIndstilinger-indstilingerne-udrejse{
+	position: absolute;
+	left: 710px;
+}
+
 
 
 /***************Hjemrejse*****************/
