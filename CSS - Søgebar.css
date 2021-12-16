@@ -479,7 +479,7 @@
 }
 
 
-/*------------Integreret med ---------------*/
+/*------------Integreret med - 1 ung ---------------*/
 
 /*---- Dropdown knapen ----*/
 .dropdownKnap-rejsene-ung-udrejse {
@@ -587,6 +587,55 @@
 	font: normal normal normal 15px/0px Segoe UI;
 			color: white;
 }
+
+
+/****************------------Integreret med - 1 ung - Hjemrejse---------------****************/
+
+
+/*****---- Dropdown knapen ----*****/
+.dropdownKnap-rejsene-ung-hjemrejse {
+	background-color: white;
+	color: black;
+	font: normal normal normal 15px/38px Segoe UI;
+			padding-right: 70px;
+			padding-left: 70px;
+			border: none;
+}
+
+/*****---- Gør dropdown muligt, og giver det en placering ----*****/
+.dropdownPostion-rejsene-ung-hjemrejse {
+	/*****---- Gør selve dropdown dellen mulig----*****/
+  	position: relative;
+	
+	/*****---- Postionen af knapen og dermed indholdet----*****/
+	position: absolute;
+	top: 584px;
+	left: 805px;
+}
+
+/*****---- Dropdown indholdet (Hidden by Default) ----*****/
+.dropdownIndhold-rejsene-ung-hjemrejse {
+	display: none;
+	background-color: white;
+	max-width: 100%;
+	min-height: 170px;
+	padding-left: 7px;
+	padding-top: 1px;
+	z-index: 1;
+	
+}
+
+/*****---- Links i dropdownmenuen ----*****/
+.dropdownIndhold-rejsene-ung-hjemrejse a {
+	color: black;
+	text-decoration: none;
+	font: normal normal normal 15px/10px Segoe UI;
+	padding: 0px;
+	display: block;
+}
+
+/*****---- Hviser dropdownmenuen menu når man hover over den ----*****/
+.dropdownPostion-rejsene-ung-hjemrejse:hover .dropdownIndhold-rejsene-ung-hjemrejse {display: block;}
 
 
 /* --------------------------------------------------------------------- Instilinger   ----------------------------------------------------------*/
