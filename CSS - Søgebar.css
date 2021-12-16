@@ -1148,8 +1148,46 @@ position: absolute;
 .dropdownPostion-dag-ankomst-hjemrejse:hover .dropdownIndhold-dag-ankomst-hjemrejse {display: block;} 
 
 
+/****************------------Integreret med - ANkomsttid - 22. dec - Hjemrejse---------------****************/
 
+/****---- Dropdown knapen ----****/
+.dropdownKnap-dag-afgang-22-hjemrejse {
+	background-color: white;
+	color: black;
+	font: normal normal normal 15px/38px Segoe UI;
+			padding-right: 6px;
+			padding-left: 6px;
+			border: none;
+}
 
+/****---- Gør dropdown muligt, og giver det en placering ----****/
+.dropdownPostion-dag-afgang-22-hjemrejse {
+	/****---- Gør selve dropdown dellen mulig----****/
+  	position: relative;
+	
+	/****---- Postionen af knapen og dermed indholdet----****/
+	position: absolute;
+	top: 520px;
+	left: 1005px;
+}
+
+/****---- Dropdown indholdet (Hidden by Default) ----****/
+.dropdownIndhold-dag-afgang-22-hjemrejse {
+	display: none;
+	background-color: white;
+	min-width: 200px;
+	max-height: 18px;
+	z-index: 1;
+}
+
+/****---- Links i dropdownmenuen ----****/
+.dropdownIndhold-dag-afgang-22-hjemrejse a {
+	padding: 0px;
+	display: block;
+}
+
+/****---- Hviser dropdownmenuen menu når man hover over den ----****/
+.dropdownPostion-dag-afgang-22-hjemrejse:hover .dropdownIndhold-dag-afgang-22-hjemrejse {display: block;} 
 
 /* --------------------------------------------------------------------- Tid vælger - afgang  ----------------------------------------------------------*/
 
