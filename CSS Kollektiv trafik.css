@@ -630,8 +630,6 @@
 	left: 618px;
 	font: normal normal normal 15px/0px Segoe UI;
 			color: white;
-			letter-spacing: 0px;
-			opacity: 1;	
 }
 
 
@@ -650,6 +648,42 @@
 	font: normal normal normal 15px/0px Segoe UI;
 			color: white;	
 }
+
+/*------------integreret med---------------*/
+
+/*---- Rød/markeret tjekcirkel ----*/
+.roedTjekcirkel-udrejse{
+	position: absolute;
+	top: 130px;
+	left: 1090px;
+}
+
+/*---- Afgangstid - tekst ----*/
+.afgangstid-tekst-integreret-udrejse{
+	position: absolute;
+	top: 130px;
+	left: 1010px;
+	font: normal normal normal 15px/0px Segoe UI;
+			color: white;
+}
+
+
+/*---- Hvid/umarkeret integreret med tjekcirkel ----*/
+.hvidTjekcirkel-integreret-udrejse{
+	position: absolute;
+	top: 130px;
+	left: 977px;
+}
+
+/*---- Ankomsttid - tekst ----*/
+.ankomsttid-tekst-integreret-udrejse{
+	position: absolute;
+	top: 130px;
+	left: 1123px;
+	font: normal normal normal 15px/0px Segoe UI;
+			color: white;	
+}
+
 
 
 /***************Hjemrejse*****************/
@@ -729,6 +763,47 @@
 
 /* Hviser dropdownmenuen menu når man hover over den */
 .dropdownPostion-dag-afgang-udrejse:hover .dropdownIndhold-dag-afgang-udrejse {display: block;}  
+
+/*------------integreret med---------------*/
+/*---- Dropdown knapen ----*/
+.dropdownKnap-dag-ankomst-udrejse {
+	background-color: white;
+	color: black;
+	font: normal normal normal 15px/38px Segoe UI;
+			padding-right: 10px;
+			padding-left: 10px;
+			border: none;
+}
+
+/*---- Gør dropdown muligt, og giver det en placering ----*/
+.dropdownPostion-dag-ankomst-udrejse {
+	/* Gør selve dropdown dellen mulig*/
+  	position: relative;
+	
+	/* Postionen af knapen og dermed indholdet*/
+	position: absolute;
+	top: 165px;
+	left: 1005px;
+}
+
+/*---- Dropdown indholdet (Hidden by Default) ----*/
+.dropdownIndhold-dag-ankomst-udrejse {
+	display: none;
+	background-color: white;
+	min-width: 200px;
+	max-height: 18px;
+	z-index: 1;
+}
+
+/*---- Links i dropdownmenuen ----*/
+.dropdownIndhold-dag-ankomst-udrejse a {
+	padding: 0px;
+	display: block;
+}
+
+/*---- Hviser dropdownmenuen menu når man hover over den ----*/
+.dropdownPostion-dag-ankomst-udrejse:hover .dropdownIndhold-dag-ankomst-udrejse {display: block;} 
+
 
 
 /***************Hjemrejse*****************/
@@ -820,6 +895,53 @@
 /* Hviser dropdownmenuen menu når man hover over den */
 .dropdownPostion-tid-afgang-udrejse:hover .dropdownIndhold-tid-afgang-udrejse {display: block;}       
 
+/*------------integreret med---------------*/
+
+/*---- Dropdown knapen ----*/
+.dropdownKnap-tid-ankomst-udrejse {
+	background-color: white;
+	color: black;
+	font: normal normal normal 15px/38px Segoe UI;
+			padding-right: 18px;
+			padding-left: 18px;
+			border: none;
+}
+
+/*---- Gør dropdown muligt, og giver det en placering ----*/
+.dropdownPostion-tid-ankomst-udrejse {
+	/*---- Gør selve dropdown dellen mulig----*/
+  	position: relative;
+	
+	/*---- Postionen af knapen og dermed indholdet----*/
+	position: absolute;
+	top: 165px;
+	left: 1106px;
+}
+
+/*---- Dropdown indholdet (Hidden by Default) ----*/
+.dropdownIndhold-tid-ankomst-udrejse {
+	display: none;
+	background-color: white;
+	max-width: 100%;
+	max-height: 200px;
+	padding-left: 10px;
+	padding-top: 1px;
+	z-index: 1;
+	overflow-y: scroll;
+}
+
+
+/*---- Links i dropdownmenuen ----*/
+.dropdownIndhold-tid-ankomst-udrejse a {
+	color: black;
+	text-decoration: none;
+	font: normal normal normal 15px/20px Segoe UI;
+	padding: 0px;
+	display: block;
+}
+
+/*---- Hviser dropdownmenuen menu når man hover over den ----*/
+.dropdownPostion-tid-ankomst-udrejse:hover .dropdownIndhold-tid-ankomst-udrejse {display: block;}  
 
 /***************Hjemrejse*****************/
 
