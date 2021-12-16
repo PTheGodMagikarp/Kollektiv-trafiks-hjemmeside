@@ -857,6 +857,44 @@ position: absolute;
 			color: white;	
 }
 
+
+/****************------------Integreret med pladsbillet - Hjemrejse---------------****************/
+
+/****---- Rød/markeret tjekcirkel - Hjemrejse ----****/
+.roedTjekcirkel-hjemrejse{
+	position: absolute;
+	top: 484px;
+	left: 585px;
+}
+
+/****---- Afgangstid - tekst - Hjemrejse ----****/
+.afgangstid-tekst-integreret-hjemrejse{
+	position: absolute;
+	top: 484px;
+	left: 729px;
+	font: normal normal normal 15px/0px Segoe UI;
+			color: white;
+			letter-spacing: 0px;
+			opacity: 1;	
+}
+
+
+/****---- Hvid/umarkeret tjekcirkel - Hjemrejse ----****/
+.hvidTjekcirkel-integreret-hjemrejse{
+	position: absolute;
+	top: 484px;
+	left: 697px;
+}
+
+/****---- Ankomsttid - tekst - Hjemrejse ----****/
+.ankomsttid-tekst-integreret-hjemrejse{
+	position: absolute;
+	top: 484px;
+	left: 618px;
+	font: normal normal normal 15px/0px Segoe UI;
+			color: white;	
+}
+
 /* --------------------------------------------------------------------- Dag vælger - afgang  ----------------------------------------------------------*/
 
 /* Dropdown knapen */
@@ -1067,6 +1105,52 @@ position: absolute;
 /**** Hviser dropdownmenuen menu når man hover over den ****/
 .dropdownPostion-dag-afgang-hjemrejse:hover .dropdownIndhold-dag-afgang-hjemrejse {display: block;} 
 
+
+/****************------------Integreret med - Ankomsttid - Hjemrejse---------------****************/
+
+/****---- Dropdown knapen ----****/
+.dropdownKnap-dag-ankomst-hjemrejse {
+	background-color: white;
+	color: black;
+	font: normal normal normal 15px/38px Segoe UI;
+			padding-right: 10px;
+			padding-left: 10px;
+			border: none;
+}
+
+/****---- Gør dropdown muligt, og giver det en placering ----****/
+.dropdownPostion-dag-ankomst-hjemrejse {
+	/****---- Gør selve dropdown dellen mulig----****/
+  	position: relative;
+	
+	/****---- Postionen af knapen og dermed indholdet----****/
+	position: absolute;
+	top: 520px;
+	left: 610px;
+}
+
+/****---- Dropdown indholdet (Hidden by Default) ----****/
+.dropdownIndhold-dag-ankomst-hjemrejse {
+	display: none;
+	background-color: white;
+	min-width: 200px;
+	max-height: 18px;
+	z-index: 1;
+}
+
+/****---- Links i dropdownmenuen ----****/
+.dropdownIndhold-dag-ankomst-hjemrejse a {
+	padding: 0px;
+	display: block;
+}
+
+/****---- Hviser dropdownmenuen menu når man hover over den ----****/
+.dropdownPostion-dag-ankomst-hjemrejse:hover .dropdownIndhold-dag-ankomst-hjemrejse {display: block;} 
+
+
+
+
+
 /* --------------------------------------------------------------------- Tid vælger - afgang  ----------------------------------------------------------*/
 
 /* Dropdown knapen ----*/
@@ -1163,6 +1247,8 @@ position: absolute;
 /*---- Hviser dropdownmenuen menu når man hover over den ----*/
 .dropdownPostion-tid-ankomst-udrejse:hover .dropdownIndhold-tid-ankomst-udrejse {display: block;}  
 
+
+
 /***************Hjemrejse*****************/
 
 /**** Dropdown knapen ****/
@@ -1177,10 +1263,10 @@ position: absolute;
 
 /**** Gør dropdown muligt, og giver det en placering ****/
 .dropdownPostion-tid-afgang-hjemrejse {
-	/* Gør selve dropdown dellen mulig*/
+	/**** Gør selve dropdown dellen mulig****/
   	position: relative;
 	
-	/* Postionen af knapen og dermed indholdet*/
+	/**** Postionen af knapen og dermed indholdet****/
 	position: absolute;
 	top: 520px;
 	left: 1106px;
@@ -1209,7 +1295,54 @@ position: absolute;
 }
 
 /**** Hviser dropdownmenuen menu når man hover over den ****/
-.dropdownPostion-tid-afgang-hjemrejse:hover .dropdownIndhold-tid-afgang-hjemrejse {display: block;}  
+.dropdownPostion-tid-afgang-hjemrejse:hover .dropdownIndhold-tid-afgang-hjemrejse {display: block;} 
 
 
+/****************------------Integreret med - Ankomsttid - Hjemrejse---------------****************/
+
+/****---- Dropdown knapen ----****/
+.dropdownKnap-tid-ankomst-hjemrejse {
+	background-color: white;
+	color: black;
+	font: normal normal normal 15px/38px Segoe UI;
+			padding-right: 18px;
+			padding-left: 18px;
+			border: none;
+}
+
+/****---- Gør dropdown muligt, og giver det en placering ----****/
+.dropdownPostion-tid-ankomst-hjemrejse {
+	/****---- Gør selve dropdown dellen mulig----****/
+  	position: relative;
+	
+	/****---- Postionen af knapen og dermed indholdet----****/
+	position: absolute;
+	top: 520px;
+	left: 711px;
+}
+
+/****---- Dropdown indholdet (Hidden by Default) ----****/
+.dropdownIndhold-tid-ankomst-hjemrejse {
+	display: none;
+	background-color: white;
+	max-width: 100%;
+	max-height: 200px;
+	padding-left: 10px;
+	padding-top: 1px;
+	z-index: 1;
+	overflow-y: scroll;
+}
+
+
+/****---- Links i dropdownmenuen ----****/
+.dropdownIndhold-tid-ankomst-hjemrejse a {
+	color: black;
+	text-decoration: none;
+	font: normal normal normal 15px/20px Segoe UI;
+	padding: 0px;
+	display: block;
+}
+
+/****---- Hviser dropdownmenuen menu når man hover over den ----****/
+.dropdownPostion-tid-ankomst-hjemrejse:hover .dropdownIndhold-tid-ankomst-hjemrejse {display: block;} 
 
