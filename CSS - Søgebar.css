@@ -773,8 +773,8 @@ position: absolute;
 	top: 180px;
 }
 
-/*---- Selve indstilingerne når man prøver at justere dem ----*/
-.justerIndstilinger-indstilingerne-udrejse{
+/*---- Selve indstilingerne når man prøver at justere dem ----*****/
+.justerIndstilinger-indstilingerne{
 	position: absolute;
 	left: 750px;
 }
@@ -855,16 +855,11 @@ position: absolute;
 /****************------------Integreret med - Indstilingerne - Hjemrejse---------------****************/
 
 /****---- Søgebaren når man prøver at juster indstilingerne ----****/
-.justerIndstilinger-indstilingerne-soegebaren-udrejse{
+.justerIndstilinger-indstilingerne-soegebaren-hjemrejse{
 	position: absolute;
-	top: 180px;
+	top: 10px;
 }
 
-/****---- Selve indstilingerne når man prøver at justere dem ----****/
-.justerIndstilinger-indstilingerne-udrejse{
-	position: absolute;
-	left: 750px;
-}
 
 
 
