@@ -710,7 +710,7 @@
 .sortTjekcirkel-standard-udrejse{
 	position: absolute;
 	top: 145px;
-	left: 1210px;
+	left: 1211px;
 }
 
 /* Standard indstilinger - tekst */
@@ -751,27 +751,29 @@
 /*------------Integreret med - Søgbaren---------------*/
 
 /* Hvid/umarkeret tjekcirkel for standardindstilinger */
-.hvidTjekcirkel-standard-udrejse{
+.hvidTjekcirkel-standard-integreret-udrejse{
 	position: absolute;
 	top: 145px;
 	left: 1212px;
 }
 
 /* Sort/markeret tjekcirkel for justeret indstilinger */
-.sortTjekcirkel-justeret-udrejse{
+.sortTjekcirkel-justeret-integreret-udrejse{
 position: absolute;
 	top: 235px;
-	left: 1210px;
+	left: 1211px;
 }
 
 
 /*------------Integreret med - Indstiligerne---------------*/
 
+/*---- Søgebaren når man prøver at juster indstilingerne ----*/
 .justerIndstilinger-indstilingerne-soegebaren-udrejse{
 	position: absolute;
 	top: 180px;
 }
 
+/*---- Selve indstilingerne når man prøver at justere dem ----*/
 .justerIndstilinger-indstilingerne-udrejse{
 	position: absolute;
 	left: 750px;
@@ -796,10 +798,7 @@ position: absolute;
 	left: 1210px;
 }
 
-/**** Sort/markeret tjekcirkel for justeret indstilinger - Hjemrejse ****/
-.sortTjekcirkel-justeret-hjemrejse{
 
-}
 
 /**** Standard indstilinger - tekst - Hjemrejse ****/
 .Standard-tekst-hjemrejse{
@@ -817,11 +816,6 @@ position: absolute;
 	left: 1250px;
 }
 
-/**** Hvid/umarkeret tjekcirkel for standardindstilinger - Hjemrejse ****/
-.hvidTjekcirkel-standard-hjemrejse{
-	
-}
-
 /**** Hvid/umarkeret tjekcirkel for justeret indstilinger - Hjemrejse ****/
 .hvidTjekcirkel-justeret-hjemrejse{
 	position: absolute;
@@ -837,6 +831,42 @@ position: absolute;
 	font: normal normal normal 11px/0px Segoe UI;
 			color: white;	
 }
+
+
+
+
+/****************------------Integreret med - Søgebaren - Hjemrejse---------------****************/
+
+/****---- Hvid/umarkeret tjekcirkel for standardindstilinger ----****/
+.hvidTjekcirkel-standard-integreret-hjemrejse{
+	position: absolute;
+	top: 496px;
+	left: 1212px;
+}
+
+/****---- Sort/markeret tjekcirkel for justeret indstilinger ----****/
+.sortTjekcirkel-justeret-integreret-hjemrejse{
+position: absolute;
+	top: 586px;
+	left: 1211px;
+}
+
+
+/****************------------Integreret med - Indstilingerne - Hjemrejse---------------****************/
+
+/****---- Søgebaren når man prøver at juster indstilingerne ----****/
+.justerIndstilinger-indstilingerne-soegebaren-udrejse{
+	position: absolute;
+	top: 180px;
+}
+
+/****---- Selve indstilingerne når man prøver at justere dem ----****/
+.justerIndstilinger-indstilingerne-udrejse{
+	position: absolute;
+	left: 750px;
+}
+
+
 
 
 /* --------------------------------------------------------------------- Søg knap   ----------------------------------------------------------*/
