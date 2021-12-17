@@ -1,25 +1,24 @@
 @charset "utf-8";
 /* CSS Document */
 
-
 /* --------------------------------------------------------------------- Mundbind ----------------------------------------------------------*/
 
 /* Advarsel ikon */
-.advarsel{
+.advarsel-udrejse{
 	position: absolute;
 	top: 715px;
 	left: 580px;
 }
 
 /* Husk mundbind - tekst */
-.advarsel-overskrift{
+.advarsel-overskrift-udrejse{
 	position: absolute;
 	top: 700px;
 	left: 630px;
 }
 
 /* Uddybne tekt til Husk mundbind */
-.advarsel-tekst{
+.advarsel-tekst-udrejse{
 	position: absolute;
 	top: 720px;
 	left: 630px;
@@ -28,35 +27,35 @@
 /* --------------------------------------------------------------------- Infomastions boxe ----------------------------------------------------------*/
 
 /* Boxen der indeholder tidligere og udvid */
-.informastionsBox-tidligere{
+.informastionsBox-tidligere-udrejse{
 	position: absolute;
 	top: 770px;
 	left: 562px;
 }
 
 /* Boxen der er valgt af brugeren */
-.informastionsBox-selected{
+.informastionsBox-selected-udrejse{
 	position: absolute;
 	top: 795px;
 	left: 550px;
 }
 
 /* 1. box der ikke er valgt af brugeren */
-.informastionsBox-ikkeSelected1{
+.informastionsBox-ikkeSelected1-udrejse{
 	position: absolute;
 	top: 915px;
 	left: 550px;
 }
 
 /* 2. box der ikke er valgt af brugeren */
-.informastionsBox-ikkeSelected2{
+.informastionsBox-ikkeSelected2-udrejse{
 	position: absolute;
 	top: 1035px;
 	left: 550px;
 }
 
 /* 3. box der ikke er valgt af brugeren */
-.informastionsBox-ikkeSelected3{
+.informastionsBox-ikkeSelected3-udrejse{
 	position: absolute;
 	top: 1155px;
 	left: 550px;
@@ -70,9 +69,61 @@
 }
 
 /* Boxen der indeholder senere */
-.informastionsBox-senere{
+.informastionsBox-senere-udrejse{
 	position: absolute;
 	top: 1275px;
+	left: 562px;
+}
+
+
+/*------------Integreret med - Detalje box - Udrejse---------------*/
+
+/*---- Kortet der viser rejsen ----*/
+.kort-detalje-udrejse{
+	position: absolute;
+	top: 770px;
+	left: 562px;
+}
+
+/*---- Boxen der er valgt af brugeren ----*/
+.informastionsBox-selected-detalje-udrejse{
+	position: absolute;
+	top: 1155px;
+	left: 550px;
+}
+
+/*--- Detalje Boxen der er valgt af brugeren ----*/
+.informastionsBox-detaljer-detalje-udrejse{
+	position: absolute;
+	top: 1275px;
+	left: 550px;
+}
+
+/*---- 1. box der ikke er valgt af brugeren ----*/
+.informastionsBox-ikkeSelected1-detalje-udrejse{
+	position: absolute;
+	top: 1395px;
+	left: 550px;
+}
+
+/*---- 2. box der ikke er valgt af brugeren ----*/
+.informastionsBox-ikkeSelected2-detalje-udrejse{
+	position: absolute;
+	top: 1515px;
+	left: 550px;
+}
+
+/*---- 3. box der ikke er valgt af brugeren ----*/
+.informastionsBox-ikkeSelected3-detalje-udrejse{
+	position: absolute;
+	top: 1635px;
+	left: 550px;
+}
+
+/*---- Boxen der indeholder senere ----*/
+.informastionsBox-senere-detalje-udrejse{
+	position: absolute;
+	top: 1755px;
 	left: 562px;
 }
 
@@ -100,14 +151,14 @@
 	left: 910px;
 }
 
-/*  */
+/* Senere ikon */
 .senere-udrejse{
 	position: absolute;
 	top: 1280px;
 	left: 581px;
 }
 
-/*  */
+/* Senere tekst */
 .senere-tekst-udrejse{
 	position: absolute;
 	top: 1263px;
@@ -115,6 +166,23 @@
 	color: black;
 }
 
+
+/*------------Integreret med - Detalje box - Udrejse---------------*/
+
+/* Senere ikon */
+.senere-detalje-udrejse{
+	position: absolute;
+	top: 1760px;
+	left: 581px;
+}
+
+/* Senere tekst */
+.senere-tekst-detalje-udrejse{
+	position: absolute;
+	top: 1743px;
+	left: 604px;
+	color: black;
+}
 
 /* --------------------------------------------------------------------- Infomastions boxe - Indhold - Valgte box ----------------------------------------------------------*/
 
@@ -156,6 +224,62 @@
 	left: 720px;
 }
 
+
+/*------------Integreret med - Detalje box - Selected box- Udrejse---------------*/
+
+/*---- Rejsen ilustret på den valgte box ----*/
+.rejse-selected-detalje-udrejse{
+	position: absolute;
+	top: 1166px;
+	left: 626px;
+}
+
+/*---- Afgang og ankomst tid på den valgte box ----*/
+.tider-selected-detalje-udrejse{
+	position: absolute;
+	top: 1160px;
+	left: 574px;
+	color: black;
+}
+
+/*---- Ekstra infomastioner på den valgte box ----*/
+.tekst-selected-detalje-udrejse{
+	position: absolute;
+	top: 1204px;
+	left: 628px;
+	font: normal normal normal 13px/0px Segoe UI;
+			color: rgb(164, 164, 164)	
+}
+
+/*---- Pris og køb knappen på den valgte box ----*/
+.pris-selected-detalje-udrejse{
+	position: absolute;
+	top: 1230px;
+	left: 626px;
+}
+
+/*---- Detalje kanpen på den valgte box ----*/
+.detaljer-selected-detalje-udrejse{
+	position: absolute;
+	top: 1230px;
+	left: 720px; 							} 
+
+/* --------------------------------------------------------------------- Infomastions boxe - Indhold - Detaljeboxen ----------------------------------------------------------*/
+
+
+.detaljebox-udrejse{
+	position: absolute;
+	top: 1304px;
+	left: 703px; 	
+}
+
+.detaljebox-tekst-udrejse{
+	position: absolute;
+	top: 1285px;
+	left: 743px; 
+	font: normal normal normal 11px/15px Segoe UI;
+}
+
 /* --------------------------------------------------------------------- Infomastions boxe - Indhold - Ikke valgte box 1 ----------------------------------------------------------*/
 
 /* Rejsen ilustret på den 1. ikke valgte box */
@@ -193,6 +317,47 @@
 .detaljer-ikkeSelected1-udrejse{
 	position: absolute;
 	top: 990px;
+	left: 720px;
+}
+
+
+/*------------Integreret med - Detalje box - Udrejse---------------*/
+
+/*---- Rejsen ilustret på den 1. ikke valgte box ----*/
+.rejse-ikkeSelected1-detalje-udrejse{
+	position: absolute;
+	top: 1406px;
+	left: 626px;
+}
+
+/*---- Afgang og ankomst tid på den 1. ikke valgte box ----*/
+.tider-ikkeSelected1-detalje-udrejse{
+	position: absolute;
+	top: 1400px;
+	left: 574px;
+	color: black;
+}
+
+/*---- Ekstra infomastioner på den 1. ikke valgte box ----*/
+.tekst-ikkeSelected1-detalje-udrejse{
+	position: absolute;
+	top: 1444px;
+	left: 628px;
+	font: normal normal normal 13px/0px Segoe UI;
+			color: rgb(164, 164, 164)	
+}
+
+/*---- Pris og køb knappen på den 1. ikke valgte box ----*/
+.pris-ikkeSelected1-detalje-udrejse{
+	position: absolute;
+	top: 1470px;
+	left: 626px;
+}
+
+/*---- Detalje kanpen på den 1. ikke valgte box ----*/
+.detaljer-ikkeSelected1-detalje-udrejse{
+	position: absolute;
+	top: 1470px;
 	left: 720px;
 }
 
@@ -238,6 +403,47 @@
 }
 
 
+/*------------Integreret med - Detalje box - Udrejse---------------*/
+
+/*---- Rejsen ilustret på den 2. ikke valgte box ----*/
+.rejse-ikkeSelected2-detalje-udrejse{
+	position: absolute;
+	top: 1526px;
+	left: 626px;
+}
+
+/*---- Afgang og ankomst tid på den 2. ikke valgte box ----*/
+.tider-ikkeSelected2-detalje-udrejse{
+	position: absolute;
+	top: 1520px;
+	left: 574px;
+	color: black;
+}
+
+/*---- Ekstra infomastioner på den 2. ikke valgte box ----*/
+.tekst-ikkeSelected2-detalje-udrejse{
+	position: absolute;
+	top: 1564px;
+	left: 628px;
+	font: normal normal normal 13px/0px Segoe UI;
+			color: rgb(164, 164, 164)	
+}
+
+/*---- Pris og køb knappen på den 2. ikke valgte box ----*/
+.pris-ikkeSelected2-detalje-udrejse{
+	position: absolute;
+	top: 1590px;
+	left: 626px;
+}
+
+/*---- Detalje kanpen på den 2. ikke valgte box ----*/
+.detaljer-ikkeSelected2-detalje-udrejse{
+	position: absolute;
+	top: 1590px;
+	left: 720px;
+}
+
+
 /* --------------------------------------------------------------------- Infomastions boxe - Indhold - Ikke valgte box 3 ----------------------------------------------------------*/
 
 /* Rejsen ilustret på den 3. ikke valgte box */
@@ -279,6 +485,46 @@
 }
 
 
+/*------------Integreret med - Detalje box - Udrejse---------------*/
+
+/*---- Rejsen ilustret på den 3. ikke valgte box ----*/
+.rejse-ikkeSelected3-detalje-udrejse{
+	position: absolute;
+	top: 1646px;
+	left: 626px;
+}
+
+/*---- Afgang og ankomst tid på den 3. ikke valgte box ----*/
+.tider-ikkeSelected3-detalje-udrejse{
+	position: absolute;
+	top: 1640px;
+	left: 574px;
+	color: black;
+}
+
+/*---- Ekstra infomastioner på den 3. ikke valgte box ----*/
+.tekst-ikkeSelected3-detalje-udrejse{
+	position: absolute;
+	top: 1684px;
+	left: 628px;
+	font: normal normal normal 13px/0px Segoe UI;
+			color: rgb(164, 164, 164)	
+}
+
+/*---- Pris og køb knappen på den 3. ikke valgte box ----*/
+.pris-ikkeSelected3-detalje-udrejse{
+	position: absolute;
+	top: 1710px;
+	left: 626px;
+}
+
+/*---- Detalje kanpen på den 3. ikke valgte box ----*/
+.detaljer-ikkeSelected3-detalje-udrejse{
+	position: absolute;
+	top: 1710px;
+	left: 720px;
+}
+
 /* --------------------------------------------------------------------- Fodnote ----------------------------------------------------------*/
 
 /* Fodnote på siden */
@@ -306,5 +552,36 @@
 .hjemrejse-ikon-udrejse{
 	position: absolute;
 	top: 1325px;
+	left: 1660px;
+}
+
+
+/*------------Integreret med - Detalje box - Udrejse---------------*/
+
+/*---- Fodnote på siden ----*/
+.fodnote-detalje-udrejse{
+	position: absolute;
+	top: 1800px;
+	left: 0px;
+}
+
+/*---- Udrejse ikon ----*/
+.udrejse-ikon-detalje-udrejse{
+	position: absolute;
+	top: 1805px;
+	left: 160px;
+}
+
+/*---- Tom indkøbskvurv ----*/
+.Inkoebskvurv-tom-detalje-udrejse{
+	position: absolute;
+	top: 1805px;
+	left: 919px;
+}
+
+/*---- Hjemrejse ikon ----*/
+.hjemrejse-ikon-detalje-udrejse{
+	position: absolute;
+	top: 1805px;
 	left: 1660px;
 }
