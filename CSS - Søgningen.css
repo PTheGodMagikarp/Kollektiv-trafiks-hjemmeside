@@ -230,14 +230,14 @@
 /*------------Integreret med - Pris og køb - Udrejse---------------*/
 
 /* Senere ikon */
-.senere-detalje-udrejse{
+.senere-pris-udrejse{
 	position: absolute;
 	top: 2105px;
 	left: 581px;
 }
 
 /* Senere tekst */
-.senere-tekst-detalje-udrejse{
+.senere-tekst-pris-udrejse{
 	position: absolute;
 	top: 2088px;
 	left: 604px;
@@ -850,3 +850,11 @@
 
 
 
+
+/* --------------------------------------------------------------------- Detalje - hjemrejse ----------------------------------------------------------*/
+
+.detalje-hjemrejse{
+	position: absolute;
+	top: 706px;
+	left: 550px;
+}
